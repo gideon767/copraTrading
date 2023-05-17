@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif
+}
+/* font-family: 'Averia Sans Libre', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Shadows Into Light', cursive; */
+
+/* Navigation Section */
+#spacing {
+    padding: 0 8%;
+}
+.navbar {
+    padding: 1% 8%;
+    box-shadow: 2px 2px 8px #6d6d6d;
+}
+.navbar .navbar-nav .nav-item {
+    margin: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-page {
+    margin-top: 100px;
+}
+
+.comment-form__input-box input[type="text"], .comment-form__input-box input[type="email"] {
+    height: 70px;
+    width: 100%;
+    border: none;
+    background: #f6f4ec;
+    padding: 0 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    color: #727d73;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: var(--agriox-font, "DM Sans", sans-serif);
+}
+.comment-form__input-box textarea {
+    font-size: 14px;
+    color: #727d73;
+    height: 190px;
+    width: 100%;
+    background: #f6f4ec;
+    padding: 18px 30px 30px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.thm-btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    outline: none !important;
+    background-color: var(--agriox-base, #f1cf69);
+    color: var(--agriox-primary, #334b35);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 18px 50px 18px;
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    z-index: 1;
+}
+.thm-btn:hover {
+    background-color:rgb(51,75,53) ;
+    color: #fff;
+}
+.contact-page {
+    margin-bottom: 100px;
+}
+.contact-page__left .sec-title__tagline {
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgb(51,75,53);
+}
+.contact-page__left .sec-title__title {
+    font-family: 'Averia Sans Libre', cursive;
+    color: rgb(51,75,53);
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 50px;
+}
+.contact-page__social-link {
+    margin-top: 30px;
+}
+.contact-page__social-link a{
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f3efef;
+    color: #334b35;
+    margin: 0 20px 0 0;
+}
+
+
+
+.footer-widget__explore-list-item a {
+    position: relative;
+    display: inline-block;
+    color: #b3c5b5;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    font-family: var(--agriox-font, "DM Sans", sans-serif);
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+.footer-widget__explore-list-item a:hover {
+    color: rgb(241,207,105);
+}
+
+element.style {
+    text-decoration: initial;
+}
+.footer-widget__about-text {
+    position: relative;
+    display: block;
+    color: #b3c5b5;
+    font-size: 16px;
+    padding-bottom: 28px;
+}
+
+element.style {
+    text-decoration: initial;
+}
+.footer-widget__news-list-item-title h5 a {
+    color: #ffffff;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+a, a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+
+.footer-widget__about-contact-box a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    list-style: none;
+}
+.footer-widget__about-contact-box i {
+    color: rgb(241,207,105);
+}
+
+
+.footer-widget__news-list {
+    list-style: none;
+    padding: 0;
+}
+/* .footer-widget__news-list .footer-widget__news-list-item-title  {
+    display: flex;
+} */
+.footer-one__top {
+    background-color: rgb(51,75,53);
+    color: #fff;
+}
+.footer-one__bottom {
+    background-color: rgb(109,140,84);
+}
+.footer-one__top-wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.footer-one {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+.footer-widget__explore-list {
+    list-style: none;
+    padding: 0;
+}
+.footer-widget__newletter-text {
+    color: #b3c5b5;
+    font-size: 16px;
+    line-height: 34px;
+    margin-top: -4px;
+}
+.footer-one__bottom {
+    color: #fff;
+}
+.footer-one__bottom-inner a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-one__bottom-inner {
+    margin: 30px 0;
+}
+i{
+    margin: 20px 10px;
+}
